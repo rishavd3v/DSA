@@ -2,10 +2,10 @@
 This repo contains codes of my DSA Bootcamp.  
 <hr>
 
-- <a href="untitled1/src">Basic Java<a>
-- <a href="Arrays/src">Arrays<a>
-- <a href="Linear_Search/src">Linear Search<a>
-- <a href="Binary_Search/src">Binary Search<a>  
-- <a href="Bubble_Sort/src">Bubble Sort<a>
-- <a href="Selection_Sort/src">Selection Sort<a>
-- <a href="Insertion_Sort/src">Insertion Sort<a>  
+- [Basic Java](untitled1/src)
+- [Arrays](Arrays/src)
+- [Linear Search](Linear_Search/src)
+- [Binary Search](Binary_Search/src)
+- [Bubble Sort](Bubble_Sort/src)
+- [Selection Sort](Selection_Sort/src)
+- [Insertion Sort](Insertion_Sort/src)  
