@@ -11,7 +11,7 @@ public class Main {
         // Cyclic Sort
         // Used when a range of no. is given.
         // Since the number in arrays are consecutive, the correct index of any element will be 'element-1'.
-        // For eg: In an unsorted array, starting from no. '7'. If the arrays is sorted no. '7' will be at index '6' and no. '8' will be at index '7' and so on.
+        // For eg: In an unsorted array, starting from no. '7'. If the array is sorted no. '7' will be at index '6' and no. '8' will be at index '7' and so on.
         // i.e. nth element will be at (n-1)th index.
 
          int i = 0;
