@@ -1,4 +1,3 @@
-package Leetcode;
 // Ques#268 - https://leetcode.com/problems/missing-number/
 // Done using cyclic sort
 
