@@ -1,5 +1,5 @@
 # DSA  
-This repo contains codes of my DSA Bootcamp.  
+This repo contains codes of my Java DSA Bootcamp along with Leetcode problems.
 <hr>
 
 - [Leetcode Problems](Problems/Leetcode/src)  
