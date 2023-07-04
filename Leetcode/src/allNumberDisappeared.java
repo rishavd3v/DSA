@@ -1,6 +1,7 @@
+
 // Ques#448 - https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
-public class FindAllMissing {
+public class allNumberDisappeared {
 
 
     class Solution {
