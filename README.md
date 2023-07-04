@@ -2,7 +2,7 @@
 This repo contains codes of my Java DSA Bootcamp along with Leetcode problems.
 <hr>
 
-- [Leetcode Problems](Problems/Leetcode/src)  
+- [Leetcode Problems](Leetcode/src)  
   <br>
 - [Basic Java](untitled1/src)
 - [Arrays](Arrays/src)
