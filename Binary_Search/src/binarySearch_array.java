@@ -3,7 +3,7 @@ public class binarySearch_array {
         // In binary search we split the array from middle and then search for element. It can be used for sorted arrays only.
         int[] arr = {-12,-8,0,5,7,14,21,26,35,74,99};
         // Array is sorted in ascending order.
-        int ans = binarySearch(arr,15);
+        int ans = binarySearch(arr,14);
         System.out.println(ans);
 
     }

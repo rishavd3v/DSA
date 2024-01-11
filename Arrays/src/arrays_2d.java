@@ -7,6 +7,7 @@ public class arrays_2d {
 
         // 2D Arrays can also be called Array of Arrays.
 
+        // int[][] arr = new int[row][col];
         int[][] arr = new int[3][3];         // It'll be a 3x3 matrix
         //or
         int[][] arr2 = {
@@ -14,11 +15,11 @@ public class arrays_2d {
                 {4, 5, 6},
                 {7, 8, 9},
         };
-        System.out.println(Arrays.toString(arr[1]));
+        System.out.println(Arrays.toString(arr2[1]));
+
         Scanner in = new Scanner(System.in);
 
         // For Loop in 2d Array
-
         // Input
         for (int row = 0; row < arr.length; row++) {            // For Every Row
             for (int col = 0; col < arr[row].length; col++) {      // For every Column in a Row
@@ -34,12 +35,13 @@ public class arrays_2d {
             System.out.println();            // To print new line after each row
         }
         // or
-        for (int row = 0; row < arr.length; row++) {
-            System.out.println(Arrays.toString(arr[row]));
+        for (int row = 0; row < arr2.length; row++) {
+            System.out.println(Arrays.toString(arr2[row]));
         }
 
+        System.out.println();
         // Enhanced for Loop
-        for(int[] a : arr){
+        for(int[] a : arr2){
             System.out.println(Arrays.toString(a));
         }
 

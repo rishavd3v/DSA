@@ -21,11 +21,13 @@ public class arrays {
         int [] arr2 = {1,3,32,45,5};
         arr2 [2] = 69;                                   // To change the value
         System.out.println(arr2[2]);
-
         System.out.println(Arrays.toString(arr));       // 'Arrays.toString' can be used to print DS.arrays.
 
-        Scanner in = new Scanner(System.in);
+        int[] temp; // declaration of array. 'temp' is defined in stack memory (Compile time).
+        temp = new int[5]; // Initialisation. obj is created in heap (Runtime, DMA).
 
+
+        Scanner in = new Scanner(System.in);
         // Input using For Loop
         for (int i =0; i<arr.length; i++){              // 'arr.length' can be used when you don't know it size.
             arr[i] = in.nextInt();
