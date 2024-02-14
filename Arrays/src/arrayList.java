@@ -9,6 +9,7 @@ public class arrayList {
         ArrayList<Integer> list = new ArrayList<>(5);
         ArrayList<Integer> arr = new ArrayList<>(5);
 
+
         // To add items
         list.add(5);
         list.add(99);

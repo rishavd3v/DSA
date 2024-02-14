@@ -24,7 +24,7 @@ public class duplicateNumber {
     }
 
 // Solution #2
-    class Solution {
+    class Solution2 {
         public int findDuplicate(int[] arr) {
             int i=0;
             while(i<arr.length){
