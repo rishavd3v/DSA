@@ -1,46 +1,46 @@
-//Ques#451 - https://leetcode.com/problems/sort-characters-by-frequency/description/
-
-import java.util.ArrayList;
 import java.util.Arrays;
 
-public class roug {
+public class roug{
     public static void main(String[] args) {
-        String str = "tree";
-        System.out.println(Solution.frequencySort(str));
+        int [] arr = {0,5,6,1,0,9};
+        int n = arr.length;
+        insertionSort(arr,n);
+        System.out.println(Arrays.toString(arr));
     }
-
-    class Solution {
-        public static String frequencySort(String s) {
-            int[] list = new int[26];
-            char[] str = s.toCharArray();
-            ArrayList<Character> ans = new ArrayList<>();
-            for (int i = 0; i < s.length(); i++) {
-                int x = str[i]-97;
-                list[x]++;
-            }
-
-            for (int i = 0; i < list.length; i++) {
-                int max = 0;
-                for (int j = 0; j < list.length; j++) {
-                    if(list[j]==0){
-                        continue;
-                    }
-                    if(list[j]>=list[max]){
-                        max = j;
-                    }
+    static void insertionSort(int[] arr,int n){
+        for(int i=0;i<n-1;i++){
+            for(int j=i+1;j>0;j--){
+                if(arr[j]<arr[j-1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
                 }
-
-                for (int k = 0; k < list[max]; k++) {
-                    ans.add((char)(max+97));
-                }
-                list[max] = 0;
+                else break;
             }
-            return ans.toString();
         }
     }
-
-
-
-
-
+    static void selectionSort(int[] arr,int n){
+        for(int i=0;i<n;i++){
+            int maxIndex = 0;
+            for(int j=0;j<n-i;j++){
+                if(arr[j]>arr[maxIndex]){
+                    maxIndex = j;
+                }
+            }
+            int temp = arr[n-i-1];
+            arr[n-i-1] = arr[maxIndex];
+            arr[maxIndex] = temp;
+        }
+    }
+    static void bubbleSort(int[] arr,int n){
+        for(int i=0;i<n;i++){
+            for (int j = 0; j < n-1; j++) {
+                if(arr[j]>arr[j+1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
 }
