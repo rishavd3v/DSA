@@ -2,7 +2,7 @@ public class static_keyword {
 
     public static void main(String[] args) {
         // greeting();
-        // we cannot access static functions from a non static one.
+        // we cannot access static functions from a non-static one.
         // something that is not static belongs to an object.
 
         // Here 'greeting' function requires an instance.
