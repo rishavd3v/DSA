@@ -1,7 +1,7 @@
 # DSA  
 This repo contains codes of my Java DSA Bootcamp along with Leetcode problems.
 <p>Resource:
-  https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=OgZqh4Zqj0_Peom1</p>
+  https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ</p>
 <hr>
 <p>  
   
