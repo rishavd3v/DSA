@@ -1,14 +1,23 @@
 # DSA  
 This repo contains codes of my Java DSA Bootcamp along with Leetcode problems.
+<p>Resource:
+  https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=OgZqh4Zqj0_Peom1</p>
 <hr>
+<p>  
+  
+- [Leetcode Problems](Leetcode/src)</p>
 
-- [Leetcode Problems](Leetcode/src)  
-  <br>
+<p>
+
 - [Basic Java](untitled1/src)
-- [Arrays](Arrays/src)
+- [OOPs](OOPs/src)
+- [Arrays](Arrays/src)</p>
+
+<p>
+  
 - [Linear Search](Linear_Search/src)
 - [Binary Search](Binary_Search/src)
 - [Bubble Sort](Bubble_Sort/src)
 - [Selection Sort](Selection_Sort/src)
 - [Insertion Sort](Insertion_Sort/src)
-- [Cyclic Sort](Cyclic_Sort/src) 
+- [Cyclic Sort](Cyclic_Sort/src)</p>
