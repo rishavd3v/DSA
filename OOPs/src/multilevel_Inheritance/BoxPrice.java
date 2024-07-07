@@ -1,7 +1,7 @@
 package multilevel_Inheritance;
 
 
-import inheritance.BoxWeight;
+import Inheritance.BoxWeight;
 
 public class BoxPrice extends BoxWeight {
     public double cost;

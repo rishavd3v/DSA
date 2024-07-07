@@ -1,6 +1,7 @@
 public class finalClass {
     public static void main(String[] args) {
         // final is used to declare constants
+        // Can also be used to prevent overriding
         final int a = 10;
 //         a = 20; // cannot reassign
 
